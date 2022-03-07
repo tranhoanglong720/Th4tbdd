@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/idLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:background="#C32626"
+                android:backgroundTint="#9F0F0F"
+                android:src="@drawable/ca_nau_lau"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="246dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/txt1"
+                android:layout_width="146dp"
+                android:layout_height="23dp"
+                android:text="TextView"
+                android:textColor="#1C0101"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/txt2"
+                android:layout_width="146dp"
+                android:layout_height="23dp"
+                android:text="TextView 2"
+                android:textColor="#E60C0C"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D50F0F"
+        android:text="Chat" />
+</LinearLayout>
+
+
+
